@@ -18,6 +18,8 @@ const handleUserInput = function (key) {
   if (key === 'a') connection.write("Move: left");
   if (key === 's') connection.write("Move: down");
   if (key === 'd') connection.write("Move: right");
+  if (key === 'm') connection.write("Say: je me souviens");
+  if (key === 'n') connection.write("Say: i am noodle");
   if (key === '\u0003') process.exit();
 };
 
